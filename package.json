@@ -1,0 +1,19 @@
+{
+  "name": "desplegando-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Esteban Chavez Villalta <esteban.chavez@tecsup.edu.pe>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.0.1",
+    "nodemon": "^3.1.10"
+  }
+}
